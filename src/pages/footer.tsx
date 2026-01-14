@@ -9,8 +9,8 @@ const Footer: React.FC = ()=>{
                 <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                     {/* Brand Identity */}
                     <div className="animate-slideInLeft">
-                        <h3 className="text-lg font-bold mb-4 hover:text-orange-300 transition-colors duration-300">About [BLNL]</h3>
-                        <p className="text-gray-300">We specialize in high-strength, machine-vibrated blocks, committed to building foundations that last.</p>
+                        <h3 className="text-lg font-bold mb-4 hover:text-orange-300 transition-colors duration-300">About Brumarch Laboratories Nig. Ltd.</h3>
+                        <p className="text-gray-300">We specialize in high-strength, machine-vibrated blocks, committed to building foundations that last longer, as well as sells of quality tyres, cars, and spare parts .</p>
                     </div>
                     {/* Product Catalog */}
                     <div className="animate-bounceIn">
@@ -33,7 +33,7 @@ const Footer: React.FC = ()=>{
                     {/* Contact & Location */}
                     <div className="animate-slideInRight">
                         <h3 className="text-lg font-bold mb-4 hover:text-orange-300 transition-colors duration-300">Contact & Location</h3>
-                        <p className="text-gray-300 mb-2">Physical Yard Address: [Insert Your City/State]</p>
+                        <p className="text-gray-300 mb-2">Physical Yard Address: No 63, Dele Awelewa street Bucknor Estate, Oke-Afa, Lagos State</p>
                         <a href="https://wa.me/1234567890" className="inline-block bg-orange-500 text-white px-4 py-2 rounded hover:bg-orange-600 transition-colors mb-2">Contact via WhatsApp</a>
                         <p className="text-gray-300">Business Hours: Mon-Sat</p>
                     </div>

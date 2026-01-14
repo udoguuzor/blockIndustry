@@ -1,7 +1,7 @@
 
 import React from "react"
 // Background image imported
-import Image from "../assets/backgroundImage.webp"
+import Image from "../assets/light.png"
 import Remi from "../assets/banner-img.jpeg"
 import block1 from "../assets/block.png"
 import block2 from "../assets/block4.jpg"
@@ -59,7 +59,7 @@ const Home: React.FC = () => {
             Explore Our Construction Portfolio
           </h1>
           <p className="font-sans text-[16px] md:text-[18px] font-medium text-white leading-relaxed hover:text-gray-200 transition-colors duration-300">
-            Quis nulla blandit vulputate morbi adipiscing sem vestibulum. Nulla turpis integer dui sed posuere sem. Id molestie mi arcu gravida lorem potenti.
+            We provide high-quality construction blocks and a premium range of cars, durable tyres, and batteries to power your every need.
           </p>
         </div>
         <div className="w-[50%] h-[400px] animate-slideInRight">

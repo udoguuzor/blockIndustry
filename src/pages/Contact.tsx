@@ -58,21 +58,21 @@ const Contact: React.FC = () => {
                 <span className="text-orange-500 mr-3">📍</span>
                 <div>
                   <h3 className="font-semibold text-gray-800">Address</h3>
-                  <p className="text-gray-700">123 Construction St, Build City, BC 12345</p>
+                  <p className="text-gray-700">No 63, Dele Awelewa street Bucknor Estate, Oke-Afa, Lagos State </p>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="text-orange-500 mr-3">📞</span>
                 <div>
                   <h3 className="font-semibold text-gray-800">Phone</h3>
-                  <p className="text-gray-700">(123) 456-7890</p>
+                  <p className="text-gray-700"> (234) 70-1060-27-93 or (234) 803-353-9032</p>
                 </div>
               </div>
               <div className="flex items-start">
                 <span className="text-orange-500 mr-3">✉️</span>
                 <div>
                   <h3 className="font-semibold text-gray-800">Email</h3>
-                  <p className="text-gray-700">info@constructionco.com</p>
+                  <p className="text-gray-700">brumarchlab@yahoo.com</p>
                 </div>
               </div>
               <div className="flex items-start">

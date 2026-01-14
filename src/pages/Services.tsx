@@ -34,9 +34,9 @@ const Services: React.FC = () => {
           </div>
 
           <div className="bg-gray-50 p-6 rounded-lg shadow-md hover-lift animate-bounceIn ani-delay-300">
-            <h3 className="text-xl font-semibold text-gray-800 mb-4 hover:text-orange-500 transition-colors duration-300">Project Management</h3>
+            <h3 className="text-xl font-semibold text-gray-800 mb-4 hover:text-orange-500 transition-colors duration-300">Sales Of Cars,Spares Parts, and batteries</h3>
             <p className="text-gray-700">
-              Our experienced project managers ensure your project is completed on time and within budget.
+              Our experienced marketting department managers ensure your cars, spare parts, and batteries are sold at competitive prices.
             </p>
           </div>
 

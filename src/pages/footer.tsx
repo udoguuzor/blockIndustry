@@ -6,7 +6,7 @@ const Footer: React.FC = ()=>{
     return(
         <footer className="bg-gray-900 text-white py-12">
             <div className="container mx-auto px-4">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
                     {/* Brand Identity */}
                     <div className="animate-slideInLeft">
                         <h3 className="text-lg font-bold mb-4 hover:text-orange-300 transition-colors duration-300">About Brumarch Laboratories Nig. Ltd.</h3>

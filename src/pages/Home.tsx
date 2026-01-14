@@ -1,7 +1,7 @@
 
 import React from "react"
 // Background image imported
-import Image from "../assets/light.png"
+import Image from "../assets/right.png"
 import Remi from "../assets/banner-img.jpeg"
 import block1 from "../assets/block.png"
 import block2 from "../assets/block4.jpg"
@@ -22,15 +22,15 @@ const Home: React.FC = () => {
 
       <div className="relative z-10 container mx-auto px-6 md:px-12">
         <div className="max-w-3xl text-left">
-          <h2 className="text-sm md:text-base text-orange-300 font-semibold tracking-wider mb-3 animate-fadeInUp ani-delay-100">
+          <h2 className="text-sm md:text-base lg:text-lg text-orange-300 font-semibold tracking-wider mb-3 animate-fadeInUp ani-delay-100">
             BUILDING DREAMS FOR A BETTER FUTURE
           </h2>
 
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-4 animate-fadeInUp ani-delay-200">
+          <h1 className="text-2xl sm:text-3xl md:text-5xl lg:text-6xl xl:text-7xl font-extrabold text-white leading-tight mb-4 animate-fadeInUp ani-delay-200">
             Building Dreams With Precision and Strength
           </h1>
 
-          <p className="text-white/90 text-base md:text-lg mb-6 animate-fadeInUp ani-delay-300">
+          <p className="text-white/90 text-base md:text-lg lg:text-xl mb-6 animate-fadeInUp ani-delay-300">
             Our commitment to craftsmanship, safety, and timely delivery makes us the construction partner you can trust.
           </p>
 
@@ -53,26 +53,25 @@ const Home: React.FC = () => {
       {/* Overlay for better text contrast */}
       <div className="absolute inset-0 bg-black/50" />
 
-      <div className="relative z-10 w-full flex">
-        <div className="w-[50%] flex justify-center items-center flex-col px-6 animate-bounceIn">
-          <h1 className="font-bold text-[35px] md:text-[45px] text-orange-400 leading-tight mb-4 hover:text-orange-300 transition-colors duration-300">
+      <div className="relative z-10 w-full flex flex-col md:flex-row">
+        <div className="w-full md:w-[50%] flex justify-center items-center flex-col px-6 animate-bounceIn">
+          <h1 className="font-bold text-[30px] sm:text-[35px] md:text-[45px] lg:text-[50px] xl:text-[55px] text-orange-400 leading-tight mb-4 hover:text-orange-300 transition-colors duration-300">
             Explore Our Construction Portfolio
           </h1>
-          <p className="font-sans text-[16px] md:text-[18px] font-medium text-white leading-relaxed hover:text-gray-200 transition-colors duration-300">
-            We provide high-quality construction blocks and a premium range of cars, durable tyres, and batteries to power your every need.
-          </p>
+          <p className="font-sans text-[14px] sm:text-[16px] md:text-[18px] lg:text-[19px] xl:text-[20px] font-medium text-white leading-relaxed hover:text-gray-200 transition-colors duration-300">
+We provide high-quality construction blocks and a premium range of cars, durable tyres, and batteries to power your every need.          </p>
         </div>
-        <div className="w-[50%] h-[400px] animate-slideInRight">
+        <div className="w-full md:w-[50%] h-[400px] animate-slideInRight">
           {/* Image is now background, so this div can be empty or used for overlay effects */}
         </div>
       </div>
     </section>
-    <div className="w-full h-[300px] bg-gradient-to-r from-gray-100 to-gray-200 flex animate-fadeInUp">
-      <div className="w-[50%] h-[300px] bg-white hover-lift">
-        <img className="w-[100%] h-[300px] object-cover hover-scale transition-transform duration-300" src={block1} alt="" />
+    <div className="w-full h-[300px] xl:h-[350px] bg-gradient-to-r from-gray-100 to-gray-200 flex flex-col md:flex-row animate-fadeInUp">
+      <div className="w-full md:w-[50%] h-[300px] xl:h-[350px] bg-white hover-lift">
+        <img className="w-[100%] h-[300px] xl:h-[350px] object-cover hover-scale transition-transform duration-300" src={block1} alt="" />
       </div>
-      <div className="w-[50%] h-[300px] hover-lift">
-        <img className="w-[100%] h-[300px] object-cover hover-scale transition-transform duration-300" src={block2} alt="" />
+      <div className="w-full md:w-[50%] h-[300px] xl:h-[350px] hover-lift">
+        <img className="w-[100%] h-[300px] xl:h-[350px] object-cover hover-scale transition-transform duration-300" src={block2} alt="" />
       </div>
     </div>
     
